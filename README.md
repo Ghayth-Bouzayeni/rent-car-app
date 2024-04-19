@@ -5,112 +5,77 @@ Ce repository contient une application de location de voitures développée en P
 <h1 align="center">Car Rental Website Project</h1>  
 
 This is a project for a car rental website. It is a project for the College Mini Project.
+# Car Rental Website Project
+
+This project is a car rental website developed as part of a college mini project.
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Database](#database)
-- [Table](#table)
-- [Car Listing Page](#car-listing-page)
-- [User Story](#user-story)
-- [Admin Page](#admin-page)
-- [Project Report](#project-report)
-- [License](#license)
-- [Demo](#demo)
+- [Admin Features](#admin-features)
+- [User Features](#user-features)
 - [Authors](#authors)
-- [Show your support](#show-your-support)
 
 
 ## Introduction
 
-- This is a car rental website project.
-- The purpose of this project is to create a car rental website.
-- The website will have a login page, a car listing page, a car reservation page, and a car return page.
-- The login page will have a username and password input field.
-- The car listing page will have a search bar and a car listing table.
-- The car reservation page will have a car reservation table.
+The car rental website allows users to rent cars and administrators to manage car listings, customer reservations, and bookings.
 
 ## Requirements
 
-- XAMPP is required to run the project.
-- The project will be hosted on a localhost server.
+- XAMPP for running the project locally.
+- Basic understanding of PHP, MySQL, and HTML/CSS.
 
-##  Installation
+## Installation
 
-- Install XAMPP.
-- Open XAMPP and click on the Start button.
-- Clone the project to the root of the XAMPP server.
-- Open the project in XAMPP.
-- Import SQL file from database folder to the XAMPP server.
-- Open Browser and navigate to [localhost:8080](localhost:8080).
-- Hurray! The project is now running.
+1. Install XAMPP.
+2. Clone the project to the `htdocs` directory of XAMPP.
+3. Start the Apache and MySQL services in XAMPP.
+4. Import the SQL database from the `database` folder.
+5. Access the project using `localhost` in your web browser.
 
-##  Database
+## Database
 
-- The database is stored in a folder called database.
-- The database is named as carproject.sql.
-- The database is stored in the root of the XAMPP server.
-- The database is imported to the XAMPP server.
-- Database used is MySQL.
-- Database Connection page is named [connection.php](/connection.php).
+- Database: MySQL
+- Tables:
+  - `voitures`: Manages car details (mark, model, year, availability, etc.).
+  - `users`: Stores user information (name, email, etc.).
+  - `reservations`: Handles car reservations with user details.
 
-## Table
+## Admin Features
 
-- The table is named as car.
-- The table has the following columns:
-    - car_id: INTEGER PRIMARY KEY AUTO_INCREMENT
-    - car_make: VARCHAR(255)
-    - car_model: VARCHAR(255)
-    - car_year: INTEGER
-    - car_color: VARCHAR(255)
-    - car_price: INTEGER
-    - car_available: BOOLEAN
-    - car_image: VARCHAR(255)
-    - car_description: VARCHAR(255)
+- **Add/Edit/Delete Cars**:
+  - Admins can add new cars, update existing car details, or remove cars from the system.
 
-##  Car Listing Page
+- **View Customer List**:
+  - Admins can see a list of registered customers and their contact information.
 
-- The car listing page will have a search bar and a car listing table.
-- The search bar will have a search button.
-- The search button will search for the car based on the search bar input.
-- The car shown only on the car listing page will be the car that is available.
+- **View Reservations**:
+  - Admins can view all reservations made by customers, including details like pickup date, return date, and car details.
 
-## User Story
+- **Delete Reservations**:
+  - Admins have the ability to cancel reservations made by customers.
 
-- As a user, I want to be able to search for a car.
-- As a user, I want to be able to see the car that is available.
-- As a user, I want to be able to reserve a car.
-- As a user, I want to be able to return a car.
-- As a user, I want to be able to see the car that I have reserved.
-- As a user, I want to provide feedback to the car rental website.
-- As a user, I should be able to make payment for the car rental.
+## User Features
 
-## Admin Page
+- **View Available Cars**:
+  - Users can browse the list of available cars.
 
-- The admin page will have a car listing table.
-- It has a button to add a new car.
-- The button will open a new page where the admin can add a new car.
-- The admin can add a new car by filling in the form.
-- The admin can also delete a car by clicking the delete button.
-- Admin can view user reservation by clicking the view button.
-- Admin can view user return by clicking the view button.
-- Admin can accept or reject a reservation by clicking the accept or reject button.
-- Admin can return a car by clicking the return button.
-- Admin can delete a reservation by clicking the delete button.
-- Admin can view feedback by clicking the view button.
+- **Reserve Cars**:
+  - Users can reserve a car by selecting the pickup date and return date.
 
-## Project Report
+- **Modify Reservation**:
+  - Users can modify their existing reservation by changing the return date.
 
-- The project report is stored in a folder called [report](https://github.com/Varshithvhegde/car_rental_project/raw/main/report/CarProjectFinalReport.pdf).
-- Report consists of the following:
-    - Introduction
-    - Literature Review
-    - Methodology
-    - Result
-    - Conclusion
-    - References
-- The project report is written in Microsoft Word.
-- The project repot has flow chart, ERD, and UML diagram.
+
+
+## Authors
+
+- [Ghayth Bouzayani(#) 
+
+## Support
+
+For any questions or issues, please contact [your@email.com](mailto:bouzayanighayth@gmail.com).
