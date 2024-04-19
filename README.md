@@ -1,6 +1,6 @@
 # rent-car-app
 Ce repository contient une application de location de voitures développée en PHP 7 avec une base de données MySQL. L'application est conçue pour gérer à la fois les utilisateurs et les administrateurs, offrant des fonctionnalités de location de véhicules, de gestion des réservations, et d'authentification sécurisée.
-![frame_firefox_mac_dark (1)](https://user-images.githubusercontent.com/80502833/187230764-e1bb2b44-c221-4529-ba73-a2261e636372.png)
+![frame_firefox_mac_dark (1)]("C:\xampp\htdocs\php7g2\images\Screenshot 2024-04-19 204955.png")
 
 <h1 align="center">Car Rental Website Project</h1>  
 
@@ -78,4 +78,4 @@ The car rental website allows users to rent cars and administrators to manage ca
 
 ## Support
 
-For any questions or issues, please contact [your@email.com](mailto:bouzayanighayth@gmail.com).
+For any questions or issues, please contact :bouzayanighayth@gmail.com](mailto:bouzayanighayth@gmail.com).
